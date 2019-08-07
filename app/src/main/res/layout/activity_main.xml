@@ -11,17 +11,16 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="364dp">
+        tools:layout_editor_absoluteX="474dp"
+        tools:layout_editor_absoluteY="57dp">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/question_text_view"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Constantinople is the largest city in Turkey." />
+            android:layout_height="wrap_content" />
 
         <LinearLayout
-            android:layout_width="195dp"
+            android:layout_width="221dp"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
@@ -38,6 +37,13 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="False" />
+
+
         </LinearLayout>
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
